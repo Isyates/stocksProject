@@ -1,5 +1,9 @@
+
+
 .App {
   text-align: center;
+  background-color: antiquewhite;
+  /* why does this only go to the page with the info. How would i do it to the entire page */
 }
 
 .App-logo {
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.individual{
+  font-family: 'Courier New', Courier, monospace;
+  display:block;
+  /* i cannot get this border to work. */
+  border: 2px, red;
+  
+}
+
+.individual:hover{
+  color:green /* this works */
 }
